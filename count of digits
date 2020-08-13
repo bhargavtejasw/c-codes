@@ -1,0 +1,36 @@
+// { Driver Code Starts
+//Initial Template for C++
+
+#include <iostream>
+using namespace std;
+
+
+ // } Driver Code Ends
+
+int countDigits(int n){
+    int res=0;
+    while(n>0){
+        n=n/10;
+        res++;
+        
+    }
+}
+
+
+
+// { Driver Code Starts.
+
+int main() {
+	int T;
+	cin>>T;
+	while(T--)
+	{
+	    int n;
+	    cin>>n;
+	    
+	    cout<<countDigits(n)<<endl;
+	    
+	    
+	}
+	return 0;
+}
